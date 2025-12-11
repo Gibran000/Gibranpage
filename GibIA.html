@@ -52,14 +52,9 @@ Released   : 20121026
 		<div class="post">
 			<h2 class="title"><a href="#">Ingresa las características de la persona a evaluar</a></h2>
 			<div class="entry">
-let usuario = {};
-
-document.getElementById("btnGuardar").addEventListener("click", () => {
-    usuario.nombre = document.getElementById("nombre").value;
-    usuario.edad = Number(document.getElementById("edad").value);
-
-    console.log(usuario);
-});			
+				<input type="text" id="nombre" placeholder="Escribe tu nombre">
+				<input type="number" id="edad" placeholder="Escribe tu edad">
+				<button id="btnGuardar">Guardar</button>
             </div>
 		</div>
 	</div>
