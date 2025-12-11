@@ -1,168 +1,122 @@
-.<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : BlackPolish 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20121026
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://html5-templates.com/" />
-    <title>Artículos Realcionados</title>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Gibran Page</title>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css' />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
-
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="gnuradio.html">Protocolo IEEE802.11a/b/g en  GNU Radio</a>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">Gibranland</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="/">Inicio</a></li>
+					<li><a href="gnuradio.html">GNU Radio</a></li>
+					<li><a href="https://realidadcadual.blogspot.com/">Realidad Casual</a></li>
+					<li><a href="about2.html">About</a></li>
+                    <li><a href="GibIA.html">GibIA</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="banner">
+			<center>
+			<div class="content">
+				<div><img src="yo.jpg" width="500" height="600" alt=""/></div>
+				
+			</div>
+			</center>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+		<div class="post">
+			<h2 class="title"><a href="#">Ingresa las características de la persona a evaluar</a></h2>
+			<div class="entry">
+				<label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre_usuario">				
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">Artículos Relacionados</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Reporte de Experimentos </a>
-                        
-                    </li>
-                    <li>
-                        <a href="bloque.html">Cómo crear un bloque</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Páginas de Documentación<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="https://www.gnuradio.org/">Foro GNU Radio</a>
-                            </li>
-                            <li>
-                                <a href="https://www.gnuradio.org/doc/doxygen/">Manual C++</a>
-                            </li>
-                            <li>
-                                <a href="https://gnuradio.org/doc/sphinx">Manual Python</a>
-                            </li>
-                            <li>
-                                <a href="https://wiki.gnuradio.org/index.php/Usage_Manual">Wiki</a>
-                            </li>
-                        </ul>
-                    </li>
-
-
-
-                    <li class="dropdown">
-                          <a href="pruebas.html">Pruebas con GRC</a>
-                    </li>
-                                       <li>
-                        <a href="instalacion.html">Instalación y tips </a>
-                        
-                    </li>
-                </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Artículos Relacionados
-                </h1>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Intro Content -->
-        <div class="row">
-            <div class="col-md-12">
-                <p>En este apartado puedes encontrar referencias de la construcción del protocolo 802.11 como algoritmo y como arquitectura. Adémas dejo el artículo de wifi receptor y estándar 802.11 del que se basaron para las construcción del algoritmo y el diagrama de bloques en GNU Radio.</p>
-            </div>
-        </div>
-
-                <center><div>
-                <iframe title="Pruebas de transmisión" width="700" height="500" src="802.11-standard.pdf">Estándar IEEE802.11 del año 1999</iframe>
-                </div></center><br></br>
-
-                <center><div>
-                <iframe title="Pruebas de transmisión" width="700" height="500" src="p9.pdf">An IEEE 802.11a/g/p OFDM Receiver for GNU Radio</iframe>
-                </div></center><br></br>
-        <hr>
-
-        <div class="row">
-            <div class="col-md-12">
-
-
-
-<li><b> Mitola, "Software radios-survey, critical evaluation and future directions", in Telesystems
-Conference, 1992. NTC-92., National, 1992, pp. 13/15-13/23.</b></li>
-
-<li><b> Tanguy Risset, Ïntroduction to GNU Radio MAC-TC", Citi Laboratory, INSA de Lyon,
-May 25, 2016.</b></li>
-
-
-<li><b> Chia-Horng, .On the design of OFDM signal detection algorithms for hardware implementation",
-In IEEE GLOBECOM 2003, pages 596–599, San Francisco, CA, December 2003.
-IEEE.</b></li>
-
-<li><b> P. F, A. C., D. V., P. C., G. Z., T. Z., F. R, “IEEE 802.11p Transmission Using
-GNURadio”, University of Salento, 73100 Lecce, Italy. 2012. </b></li>
-
-<li><b>M. Ergen, "Mobile Broadband Including WiMAX and LTE", Springer Science+Business
-Media, Spring Street, New York, NY 10013, USA, 2009.</b></li>
-
-<li><b> K. Fazel, F Kaiser, “Multi-Carrier and Spread Spectrum Systems; From
-OFDM and MC-CDMA to LTE and WiMAX”, A John Wiley and Sons, Ltd, segunda
-edición, Southern Gate, Chichester, West Sussex PO19 8SQ, United Kingdom, 2008.</b></li>
-
-<li><b>J. Höller, “FromMachine-to-Machine to the Internet of Things: Introduc-
-tion to a New Age of Intelligence.”, Academic Press, pp 352, 2014.</b></li>
-
-<li><b>GNU Radio. Polymorphics Types. Disponible en [https://gnuradio.org/doc/doxygen/pageofdm.html].</b></li>
-
-<li><b> G. Agullo, J. R., B. C. y J. G., “An IEEE 802.11 MAC Software Defined Radio implementation
-for experimental wireless communications and networking research”. Wireless
-Days. Uwicore, Ubiquitous Wireless Communications Research Laboratory. 2010.</b></li>
-<li><b>R. Zitouniz, H. Bouaroua and B. Senouci. “Hardware-Software Codesign for Software
-Defined Radio: IEEE 802.11p receiver case study”. Conference RICESS, ECE Paris-LACSC
-Laboratory, VEDECOM institutez, 2017. 37 Quai de Grenelle, 75015, Paris, France.</b></li>
-<li><b>J. Flores. 2009. . Estudio de Modelos de Propagación para la Implantación de una Red
-WiMAX en 3.3GHz en el Estado de Colima". [Tesis para obtener el título de Maestro en
-Ciencias] Centro de Investigación Científica y de Educación Superior de Ensenada. Ensenada, Baja California, México.</b></li>
-            </div>
-        </div>
-
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website, year</p>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!-- /.container -->
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+		</div>
+	</div>
+	<!-- end #page 
+	<div id="featured-content">
+		<div id="column1">
+			<h2>Maecenas luctus</h2>
+			<p><img src="images/img06.jpg" width="300" height="150" alt="" /></p>
+			<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+			<p class="button"><a href="#">Read More</a></p>
+		</div>
+		<div id="column2">
+			<h2>Fusce fringilla</h2>
+			<p><img src="images/img07.jpg" width="300" height="150" alt="" /></p>
+			<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+			<p class="button"><a href="#">Read More</a></p>
+		</div>
+		<div id="column3">
+			<h2>Praesent mattis</h2>
+			<p><img src="images/img08.jpg" width="300" height="150" alt="" /></p>
+			<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+			<p class="button"><a href="#">Read More</a></p>
+		</div>
+	</div>
+</div>
+<div id="footer-content-wrapper">
+	<div id="footer-content">
+		<div id="fbox1">
+			<h2>Fusce ultrices fringilla</h2>
+			<ul class="style1">
+				<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
+				<li><a href="#">Etiam rhoncus volutpat erat</a></li>
+				<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
+				<li><a href="#">Mauris vulputate dolor sit amet nibh</a></li>
+				<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
+			</ul>
+		</div>
+		<div id="fbox2">
+			<h2>Nulla luctus eleifend</h2>
+			<ul class="style1">
+				<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
+				<li><a href="#">Etiam rhoncus volutpat erat</a></li>
+				<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
+				<li><a href="#">Mauris vulputate dolor sit amet nibh</a></li>
+				<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
+			</ul>
+		</div>
+		<div id="fbox3">
+			<h2>Maecenas luctus lectus</h2>
+			<ul class="style1">
+				<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
+				<li><a href="#">Etiam rhoncus volutpat erat</a></li>
+				<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
+				<li><a href="#">Mauris vulputate dolor sit amet nibh</a></li>
+				<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>&copy; Untitled. All rights reserved. Images by <a href="http://fotogrph.com/">Fotogrph</a>. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+-->
+<!-- end #footer -->
 </body>
-
 </html>
