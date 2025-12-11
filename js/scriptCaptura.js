@@ -20,7 +20,7 @@ document.getElementById("btnGuardar").addEventListener("click", () => {
     const nr_employed = document.getElementById("nr_employed").value;
 
 
-const API_KEY = "";
+const API_KEY = "3JeSe3ia20nfQ11SkugPknMgD0rozg7P7lzzSNObfse1JbfvB4w3JQQJ99BLAAAAAAAAAAAAINFRAZML1b53";
 fetch("https://conexion-areamlgib01.eastus2.inference.ml.azure.com/score", {
     method: "POST",
     headers: {
