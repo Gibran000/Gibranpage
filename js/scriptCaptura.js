@@ -20,13 +20,14 @@ document.getElementById("btnGuardar").addEventListener("click", () => {
     const nr_employed = document.getElementById("nr_employed").value;
 
 
-const API_KEY = "";
-fetch("https://conexion-areamlgib01.eastus2.inference.ml.azure.com/score", {
+const API_KEY = process.env.AZURE_API_KEY;
+const DEPLOYMENT_NAME = process.env.DEPLOYMENT_NAME;
+	fetch("https://conexion-areamlgib01.eastus2.inference.ml.azure.com/score", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
         "Authorization": `Bearer ${API_KEY}`,
-        "azureml-model-deployment": "mlauto001"
+        "azureml-model-deployment": $(DEPLOYMENT_NAME)
     },
     body: JSON.stringify({
 		"age": age,
