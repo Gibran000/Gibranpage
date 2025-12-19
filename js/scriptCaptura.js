@@ -22,6 +22,7 @@ document.getElementById("btnGuardar").addEventListener("click", () => {
 
 const API_KEY = process.env.AZURE_API_KEY;
 const DEPLOYMENT_NAME = process.env.DEPLOYMENT_NAME;
+	
 	fetch("https://conexion-areamlgib01.eastus2.inference.ml.azure.com/score", {
     method: "POST",
     headers: {
@@ -64,3 +65,4 @@ const DEPLOYMENT_NAME = process.env.DEPLOYMENT_NAME;
     document.getElementById("resultado").textContent =
         `Hola ${age}, ${job}, ${marital}, ${education}, ${defaultt}, ${housing}, ${loan}, ${contact}, ${month}, ${duration}, ${campaign}, ${pdays}, ${previous}, ${poutcome}, ${emp_var_rate}, ${cons_price_idx}, ${cons_conf_idx}, ${euribor3m}, ${nr_employed}`;
 });
+console.log("¡Hola, mundo!");
