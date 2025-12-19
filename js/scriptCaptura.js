@@ -22,7 +22,7 @@ document.getElementById("btnGuardar").addEventListener("click", () => {
 
 const API_KEY = process.env.AZURE_API_KEY;
 const DEPLOYMENT_NAME = process.env.DEPLOYMENT_NAME;
-	
+	console.log("¡Hola, mundo uno!");
 	fetch("https://conexion-areamlgib01.eastus2.inference.ml.azure.com/score", {
     method: "POST",
     headers: {
