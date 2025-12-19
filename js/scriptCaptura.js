@@ -60,9 +60,9 @@ const DEPLOYMENT_NAME = process.env.DEPLOYMENT_NAME;
 .catch(err => {
     console.log("Error:", err);
 });
-
+console.log("¡Hola, mundo!");
 
     document.getElementById("resultado").textContent =
         `Hola ${age}, ${job}, ${marital}, ${education}, ${defaultt}, ${housing}, ${loan}, ${contact}, ${month}, ${duration}, ${campaign}, ${pdays}, ${previous}, ${poutcome}, ${emp_var_rate}, ${cons_price_idx}, ${cons_conf_idx}, ${euribor3m}, ${nr_employed}`;
 });
-console.log("¡Hola, mundo!");
+
